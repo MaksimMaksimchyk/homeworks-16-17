@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">HomeworksApp</string>
+    <string name="homework16_text_header">ДЗ №16. Введение в Android. 1 часть</string>
+    <string name="homework17_text_header">ДЗ №17. Введение в Android. 2 часть</string>
+    <string name="homework16_mainActivity_mainText">Input your name</string>
+    <string name="homework16_mainActivity_button_text">to SecondActivity</string>
+    <string name="homework16_secondActivity_mainText">Hello, %s!</string>
 </resources>
