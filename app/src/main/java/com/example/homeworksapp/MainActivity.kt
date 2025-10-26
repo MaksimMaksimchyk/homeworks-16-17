@@ -7,7 +7,8 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.homeworksapp.homework16.Homework16MainActivity
+import com.example.homeworksapp.homework16.*
+import com.example.homeworksapp.homework17.*
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,6 +26,14 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Homework16MainActivity::class.java)
             startActivity(intent)
         }
+
+        val goToHomework17Button: Button = findViewById<Button>(R.id.goToHomework17Button)
+        goToHomework17Button.setOnClickListener {
+            val intent = Intent(this, Homework17MainActivity::class.java)
+            startActivity(intent)
+        }
+
+
     }
 
 }

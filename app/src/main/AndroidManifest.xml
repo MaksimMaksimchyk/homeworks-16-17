@@ -16,7 +16,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HomeworksApp">
-
+        <activity
+            android:name=".homework17.Homework17MainActivity"
+            android:exported="false" />
         <activity
             android:name=".homework16.Homework16SecondActivity"
             android:exported="false" />

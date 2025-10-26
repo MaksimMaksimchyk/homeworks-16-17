@@ -5,4 +5,5 @@
     <string name="homework16_mainActivity_mainText">Input your name</string>
     <string name="homework16_mainActivity_button_text">to SecondActivity</string>
     <string name="homework16_secondActivity_mainText">Hello, %s!</string>
+    <string name="homework17_mainActivity_button_text">Test Button</string>
 </resources>
